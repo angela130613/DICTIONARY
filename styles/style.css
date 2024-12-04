@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #72faba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background: #40d8c4;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    height: 5rem;
+}
+
+h1, h2{
+    text-align: center;
+    color: #0400ff;
+}
+
+.translator, .dictionary, .add-word{
+    margin: 1rem 0;
+}
+
+.translator input, .add-word input, .add-word select{
+    width: 7rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #0300a5;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 15px;
+    background: #48c4da;
+    color: rgb(23, 8, 165);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #23df90;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td{
+    border: 1px solid #378eff;
+    padding: 10px;
+}
+
+.translate{
+    background: #b2a1ff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;   
+    margin: 1rem;
+}
+
+.dictionary{
+    background: #78cdff;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;  
+}
+
+.add-word{
+    background: #5dc2fc;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.translate > .translation-box {
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid #24fdeb;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    font-size: 1.2em;
+}
+
+.hidden {
+    display: none;
+}
